@@ -1,0 +1,7 @@
+Giuliana,Medicina,27
+Alicia,Derecho,20
+William,Ingenieria,24
+Milagros,Nutrici�n,25
+Chencho,Artes,30
+Frank,Letras,32
+Pilar,Nutrici�n,23
