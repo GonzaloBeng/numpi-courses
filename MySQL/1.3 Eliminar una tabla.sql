@@ -1,0 +1,13 @@
+# ELIMINAR UNA TABLA
+#
+# DROP TABLE <nombre_tabla>
+#
+#\\\\\ DESARROLLO \\\\\
+
+USE SAKILA;
+
+SHOW TABLES;
+
+DROP TABLE KOI;
+
+SHOW TABLES;
