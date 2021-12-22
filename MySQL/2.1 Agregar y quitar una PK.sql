@@ -13,7 +13,6 @@
 # PRIMARY KEY (<nombre_columna1>)
 #);
 #\\\\\ DESARROLLO \\\\\
-
 CREATE DATABASE grupos;
 USE grupos;
 

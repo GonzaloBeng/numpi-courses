@@ -6,7 +6,6 @@
 # ALTER TABLE <nombre_tabla>
 # DROP INDEX <nombre_columna>;
 #\\\\\ DESARROLLO \\\\\
-
 DESC GRUPO_1;
 
 ALTER TABLE GRUPO_1

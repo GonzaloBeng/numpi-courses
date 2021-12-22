@@ -4,7 +4,6 @@
 # change <nombre_columna_viejo> <nombre_columna_nuevo> <tipo_de_dato>;
 #
 #\\\\\ Desarrollo \\\\\
-
 USE GRUPOS;
 
 DESC GRUPO_1;

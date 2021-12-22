@@ -15,7 +15,6 @@
 # FOREIGN KEY (nombre_columna2>) REFERENCES <nombre_tabla_madre>
 #);
 #\\\\\ DESARROLLO \\\\\
-
 USE GRUPOS;
 
 DESC ZONAS;
