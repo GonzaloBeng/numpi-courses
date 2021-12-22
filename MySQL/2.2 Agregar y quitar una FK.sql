@@ -1,0 +1,43 @@
+# COMO AGREGAR Y QUITAR UNA FK A UNA TABLA
+#
+# ALTER TABLE <nombre_tabla_hija>
+# ADD CONSTRAINT <nombre_restriccion>
+# FOREIGN KEY (<nombre_columna>) REFERENCES <nombre_tabla_madre>;
+#
+# ALTER TABLE <nombre_tabla_hija>
+# DROP FOREIGN KEY;
+#
+# CREATE TABLE <nombre_tabla_hija> (
+# <nombre_columna1> <tipo_de_data_1> NOT NULL,
+# <nombre_columna2> <tipo_de_data_2> NOT NULL,
+# ...
+# PRIMARY KEY (<nombre_columna1>),
+# FOREIGN KEY (nombre_columna2>) REFERENCES <nombre_tabla_madre>
+#);
+#\\\\\ DESARROLLO \\\\\
+
+USE GRUPOS;
+
+DESC ZONAS;
+DESC GRUPO_1;
+
+ALTER TABLE GRUPO_1
+ADD CONSTRAINT FK_ZONASID
+FOREIGN KEY (DIR_COD) REFERENCES ZONAS(ID);
+
+DESC GRUPO_1;
+
+CREATE TABLE GRUPO_2 (
+ID INT NOT NULL,
+NOMBRE VARCHAR(20),
+DIR_COD INT NOT NULL,
+PRIMARY KEY (ID),
+FOREIGN KEY (DIR_COD) REFERENCES ZONAS(ID)
+);
+
+DESC GRUPO_2;
+
+ALTER TABLE GRUPO_1
+DROP FOREIGN KEY FK_ZONASID;
+
+DESC GRUPO_1;

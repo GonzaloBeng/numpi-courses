@@ -1,0 +1,49 @@
+# COMO AGREGAR Y QUITAR UNA PK A UNA TABLA
+#
+# ALTER TABLE <nombre_tabla>
+# ADD PRIMARY KEY (<nombre_columna1>);
+#
+# ALTER TABLE <nombre_tabla>
+# DROP PRIMARY KEY;
+#
+# CREATE TABLE <nombre_tabla> (
+# <nombre_columna1> <tipo_de_data_1> NOT NULL,
+# <nombre_columna2> <tipo_de_data_2> NOT NULL,
+# ...
+# PRIMARY KEY (<nombre_columna1>)
+#);
+#\\\\\ DESARROLLO \\\\\
+
+CREATE DATABASE grupos;
+USE grupos;
+
+CREATE TABLE ZONAS (
+ID INT NOT NULL,
+DIR_COD INT NOT NULL,
+DIR VARCHAR (20),
+NOMBRE VARCHAR(20)
+);
+
+DESC ZONAS;
+
+ALTER TABLE ZONAS
+ADD PRIMARY KEY (ID);
+
+DESC ZONAS;
+
+CREATE TABLE GRUPO_1 (
+ID INT NOT NULL,
+NOMBRE VARCHAR(20),
+DIR_COD INT NOT NULL,
+PRIMARY KEY (ID)
+);
+
+DESC GRUPO_1;
+
+ALTER TABLE GRUPO_1
+DROP PRIMARY KEY;
+
+DESC GRUPO_1;
+
+
+
