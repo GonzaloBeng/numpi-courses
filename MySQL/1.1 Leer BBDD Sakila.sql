@@ -1,4 +1,5 @@
-#BBDD a usar
+# BBDD a usar
+
 USE sakila;
 
 #Mostrar las tablas de su interior

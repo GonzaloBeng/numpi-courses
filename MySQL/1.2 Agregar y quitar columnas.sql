@@ -7,7 +7,6 @@
 # DROP COLUMN <nombre_columna_nueva>;
 #
 #\\\\\\ DESARROLLO \\\\\\
-
 USE SAKILA;
 
 CREATE TABLE KOI

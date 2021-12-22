@@ -3,7 +3,6 @@
 # DROP TABLE <nombre_tabla>
 #
 #\\\\\ DESARROLLO \\\\\
-
 USE SAKILA;
 
 SHOW TABLES;

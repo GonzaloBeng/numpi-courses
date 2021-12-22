@@ -3,7 +3,6 @@
 # TRUNCATE TABLE <nombre_table>
 #
 # \\\\\ DESARROLLO \\\\\
-
 USE SAKILA;
 
 CREATE TABLE KOI
